@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+# If you are using SQLite database
+*.sqlite3
+
+# If you are using environment variables
+.env
+
+# Django migrations
+*/migrations/*
+
+# Node modules (for React)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+*.log.*
+logfile
+
+# Python virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS specific
+.DS_Store
+
+# Backup files
+*.bak
+
+# Coverage reports
+coverage/
+*.cover
+.hypothesis/
+.pytest_cache/
+.coverage
+
+# Test reports
+*.xml
+*.out
+*.err
+
+# Static files
+staticfiles/
+static/
+assets/
+
+# Media files
+media/
+uploads/
+
+# Build directories
+build/
+dist/
+.Dockerfile
+.Dockerignore
+.cache
+
+# JetBrains IDEs
+.idea/
+
+.gitignore
